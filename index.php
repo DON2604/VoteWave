@@ -12,7 +12,7 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./">
                 <img src="./frontend//assets/votlog.png" alt="Bootstrap Logo" width="50" height="50" class="d-inline-block align-text-top">
                 <span class="align-middle" style="position:relative; top: 5px;"><strong>VoteWave</strong></span>
             </a>
@@ -33,10 +33,10 @@
                 </ul>
                 <ul class="navbar-nav custom-right"> 
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-primary" href="./frontend/pages/login.html">Login</a>
+                        <a class="nav-link btn btn-outline-primary" href="./frontend/pages/login.php">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-primary" href="#">Register</a>
+                        <a class="nav-link btn btn-outline-primary" href="./frontend/pages/signup.php">Register</a>
                     </li>
                 </ul>
             </div>
