@@ -2,8 +2,6 @@
 include '../../backend/prosignup.php';
 ?>
 
-
-
 <!DOCTYPE html>  
 <html lang="en">  
 <head>  
@@ -15,20 +13,13 @@ include '../../backend/prosignup.php';
 <body>  
   <?php require '../../backend/prosignup.php' ?>
   <?php
-  $err = '';
-  if($err=='false'){
-    echo'
-    <div class="alert alert-success" role="alert">
-    Success! Signup done!
-    </div>';
-  }
-  elseif($err=='true'){
+  if(isset($_GET['error'])) {
     echo'
     <div class="alert alert-danger" role="alert">
-    This is a danger alert—check it out!
+    Error! User already exists.
     </div>';
   }
-  ?>
+?>
   <div class="pt-5">  
     <h1 class="text-center">SignUp</h1>  
     <div class="container">  

@@ -1,8 +1,4 @@
 
-
-
-
-
 <!DOCTYPE html>  
 <html lang="en">  
 <head>  
@@ -18,10 +14,10 @@
       <div class="row">  
         <div class="col-md-5 mx-auto">  
           <div class="card card-body">  
-            <form id="submitForm" action="#" method="post" data-parsley-validate="" data-parsley-errors-messages-disabled="true" novalidate="" _lpchecked="1">  
+            <form id="submitForm" action="../../backend/prologin.php" method="post" data-parsley-validate="" data-parsley-errors-messages-disabled="true" novalidate="" _lpchecked="1">  
               <input type="hidden" name="_csrf" value="7635eb83-1f95-4b32-8788-abec2724a9a4">  
               <div class="form-group required">  
-                <label for="username">Enter your Name / Email</label>  
+                <label for="username">Enter your Email</label>  
                 <input type="text" class="form-control text-lowercase" id="username" required="" name="username" value="">  
               </div>                      
               <div class="form-group required">  
