@@ -1,0 +1,62 @@
+.navbar-nav.custom-left {
+    margin-left: auto;
+    margin-right: 16rem;
+}
+
+.navbar-nav.custom-right .nav-link{
+    padding: 0.25rem 1.25rem;
+    transition: background-color 0.2s;
+    border-radius: 2px;
+    border: 2px solid rgb(13, 138, 187);
+    border-radius: 2rem;
+    margin-right: 0.9rem;
+}
+
+.navbar-nav.custom-right .nav-link:hover{
+    background-color: #21a4d8;
+    color: #fff;
+}
+
+.hero{
+    margin-left: 10rem;
+    margin-top:7rem;
+    font-size:xxx-large;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.voice{
+    color: rgb(13, 138, 187);
+}
+
+.heroimage img{
+    position: absolute;
+    margin-top: -18rem;
+    margin-left: 50rem;
+    width:230px
+}
+
+.sky-ball {
+    position: absolute;
+    margin-top: -15rem;
+    margin-left: 48rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #4cb6e0; /* Sky Blue color */
+    z-index: -1;
+}
+
+.buttons{
+    padding: 0.25rem 1.25rem;
+    margin-left: 10rem;
+    transition: background-color 0.2s;
+    border-radius: 2px;
+    border: 2px solid rgb(13, 138, 187);
+    border-radius: 2rem;
+    background-color:rgb(13, 138, 187) ;
+    color:#fff
+}
+
+.extra{
+    font-size:large;
+}
