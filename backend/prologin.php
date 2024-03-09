@@ -17,7 +17,7 @@
                 exit();
             }
             else{
-                header("Location:../frontend/pages/login.php?error=$res");
+                header("Location:../frontend/pages/login.php?error=Incorrect credentials");
                 exit();
             }
            $conn->close(); 
