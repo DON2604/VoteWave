@@ -6,6 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    Votingggggggggggggg...
+<?php
+  if(isset($_GET['user'])) {
+    $user = $_GET['user'];
+    echo"
+    $user
+    </div>";
+  }
+?>
 </body>
 </html>

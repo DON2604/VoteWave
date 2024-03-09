@@ -12,10 +12,9 @@
             $result = mysqli_query($conn, $sql);
             
             if ($result) {
-                header("Location:../frontend/pages/voting.php");
+                header("Location:../frontend/pages/voting.php?user=name");
                 exit(); 
             } else {
-                // Redirect with an error message
                 header("Location:../frontend/pages/signup.php?error=error");
                 exit(); 
             }
