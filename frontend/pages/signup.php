@@ -6,7 +6,7 @@ include '../../backend/prosignup.php';
 <html lang="en">  
 <head>  
   <meta charset="UTF-8">  
-  <title>Bootstrap 4 Sign Up Form Example</title>  
+  <title>SignUp Form</title>  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">  
   <link rel="stylesheet" href="../css/signup.css">  
 </head>  

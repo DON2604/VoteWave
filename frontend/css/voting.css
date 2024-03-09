@@ -1,0 +1,61 @@
+.navbar-nav.custom-left {
+    margin-left: auto;
+    margin-right: 18rem;
+}
+
+.navbar-nav.custom-right .nav-link{
+    padding: 0.24rem 5.25rem;
+    transition: background-color 0.2s;
+    border-radius: 2px;
+    border: 2px solid rgb(13, 138, 187);
+    border-radius: 2rem;
+    margin-right: 0.9rem;
+}
+
+.navbar-nav.custom-right .nav-link:hover{
+    background-color: #21a4d8;
+    color: #fff;
+}
+
+.user{
+    margin-top: 0.25rem;
+    margin-right: 0.69rem;
+}
+
+.hero{
+    font-size: x-large;
+    margin-left: 3.6rem;
+    margin-top: 1.6rem;
+}
+
+.extras{
+    margin-left: 3.6rem;
+}
+
+.vote-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: white;
+    color: #007bff;
+    text-decoration: none;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    cursor: pointer; 
+}
+
+.vote-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: white;
+    cursor: pointer; 
+}
+
+.card-img-top{
+    max-width: 75%;
+    height:180px;
+    margin-left: 2rem;
+    margin-bottom: -2rem;
+}
+
+
