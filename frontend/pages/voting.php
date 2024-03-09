@@ -83,11 +83,24 @@
             <div class="mask rgba-white-slight"></div>
           </a>
         </div>
-        <div class="card-body card-body-cascade" style="padding: 10px;">
 
+        <form id="voteForm" action="../../backend/provote.php" method="post">
+        <div class="card-body card-body-cascade" style="padding: 10px;">
           <h4 class="font-weight-bold card-title">TEATM</h4>
           <p class="card-text">TEATM party.</p>
-          <a class="vote-btn">Vote</a>
+          <?php 
+          if(isset($_GET['error'])) {
+            echo "
+            <div class='vote-btn'>Voted</div>
+            ";
+          }
+          else{
+            echo "
+          <input type='hidden' name='candidate' id='candidateInput' value='teatm'>
+          <button type='submit' class= 'vote-btn' onclick='castVote('teatm')'>Vote</button>
+          ";
+          }
+          ?>
         </div>
       </div>
 
@@ -103,7 +116,19 @@
 
           <h4 class="font-weight-bold card-title">NDENV</h4>
           <p class="card-text">NDENV party.</p>
-          <a class="vote-btn">Vote</a>
+          <?php 
+          if(isset($_GET['error'])) {
+            echo "
+            <div class='vote-btn'>Voted</div>
+            ";
+          }
+          else{
+            echo "
+            <input type='hidden' name='candidate' id='candidateInput'value='ndenv'>
+          <button type='submit' class= 'vote-btn' onclick='castVote('ndenv')'>Vote</button>
+          ";
+          }
+          ?>
         </div>
       </div>
 
@@ -119,7 +144,19 @@
 
           <h4 class="font-weight-bold card-title">2STAR</h4>
           <p class="card-text">2STAR party.</p>
-          <a class="vote-btn">Vote</a>
+          <?php 
+          if(isset($_GET['error'])) {
+            echo "
+            <div class='vote-btn'>Voted</div>
+            ";
+          }
+          else{
+            echo "
+            <input type='hidden' name='candidate' id='candidateInput'value='2star'>
+          <button type='submit' class= 'vote-btn' onclick='castVote('2star')'>Vote</button>
+          ";
+          }
+          ?>
         </div>
       </div>
 
@@ -135,7 +172,19 @@
 
           <h4 class="font-weight-bold card-title">NETE</h4>
           <p class="card-text">NETE party.</p>
-          <a class="vote-btn">Vote</a>
+          <?php 
+          if(isset($_GET['error'])) {
+            echo "
+            <div class='vote-btn'>Voted</div>
+            ";
+          }
+          else{
+            echo "
+            <input type='hidden' name='candidate' id='candidateInput'value='nete'>
+          <button type='submit' class= 'vote-btn' onclick='castVote('nete')'>Vote</button>
+          ";
+          }
+          ?>
         </div>
       </div>
 
@@ -155,6 +204,11 @@
           ?>
           <h6 class="font-weight-bold indigo-text py-2">Your info will be kept confidential</h6>
           </div> 
-      
+
+          <input type="hidden" name="user" id="userInput" value="<?php echo htmlspecialchars($user); ?>">
+          </form>
+
+
+  
 </body>
 </html>
