@@ -84,7 +84,7 @@
           </a>
         </div>
 
-        <form id="voteForm" action="../../backend/provote.php" method="post">
+        
         <div class="card-body card-body-cascade" style="padding: 10px;">
           <h4 class="font-weight-bold card-title">TEATM</h4>
           <p class="card-text">TEATM party.</p>
@@ -96,8 +96,11 @@
           }
           else{
             echo "
+          <form id='voteForm' action='../../backend/provote.php' method='post'>
           <input type='hidden' name='candidate' id='candidateInput' value='teatm'>
-          <button type='submit' class= 'vote-btn' onclick='castVote('teatm')'>Vote</button>
+          <input type='hidden' name='user' id='userInput' value='$user'>
+          <button type='submit' class= 'vote-btn' >Vote</button>
+          </form>
           ";
           }
           ?>
@@ -124,8 +127,11 @@
           }
           else{
             echo "
-            <input type='hidden' name='candidate' id='candidateInput'value='ndenv'>
-          <button type='submit' class= 'vote-btn' onclick='castVote('ndenv')'>Vote</button>
+            <form id='voteForm' action='../../backend/provote.php' method='post'>
+            <input type='hidden' name='candidate' id='candidateInput' value='ndenv'>
+            <input type='hidden' name='user' id='userInput' value='$user'>
+          <button type='submit' class= 'vote-btn' >Vote</button>
+          </form>
           ";
           }
           ?>
@@ -152,8 +158,11 @@
           }
           else{
             echo "
-            <input type='hidden' name='candidate' id='candidateInput'value='2star'>
-          <button type='submit' class= 'vote-btn' onclick='castVote('2star')'>Vote</button>
+            <form id='voteForm' action='../../backend/provote.php' method='post'>
+            <input type='hidden' name='candidate' id='candidateInput' value='2star'>
+            <input type='hidden' name='user' id='userInput' value='$user'>
+          <button type='submit' class= 'vote-btn' >Vote</button>
+          </form>
           ";
           }
           ?>
@@ -180,8 +189,11 @@
           }
           else{
             echo "
-            <input type='hidden' name='candidate' id='candidateInput'value='nete'>
-          <button type='submit' class= 'vote-btn' onclick='castVote('nete')'>Vote</button>
+            <form id='voteForm' action='../../backend/provote.php' method='post'>
+            <input type='hidden' name='candidate' id='candidateInput' value='nete'>
+            <input type='hidden' name='user' id='userInput' value='$user'>
+          <button type='submit' class= 'vote-btn' >Vote</button>
+          </form>
           ";
           }
           ?>
@@ -205,8 +217,8 @@
           <h6 class="font-weight-bold indigo-text py-2">Your info will be kept confidential</h6>
           </div> 
 
-          <input type="hidden" name="user" id="userInput" value="<?php echo htmlspecialchars($user); ?>">
-          </form>
+
+
 
 
   
