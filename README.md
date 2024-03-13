@@ -7,7 +7,7 @@
 ## 🗳️ E-Voting System
 
 
-This is an electronic voting (e-voting) system implemented using PHP, HTML, and CSS. It provides a secure and efficient platform for conducting elections online.
+This is an electronic voting (e-voting) system implemented using PHP, HTML, CSS and MySQL. It provides a secure and efficient platform for conducting elections online.
 
 ### Features
 
