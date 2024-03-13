@@ -23,13 +23,13 @@ This is an electronic voting (e-voting) system implemented using PHP, HTML, and 
 2. Clone this repository into the `htdocs` directory of XAMPP.
 3. Start Apache and MySQL modules in XAMPP.
 4. Import the provided SQL database file into phpMyAdmin.
-5. Access the application through the web browser using `http://localhost/evoting`.
+5. Access the application through the web browser using `http://localhost/VoteWave`.
 
 ### Project Structure
 
 - **index.php**: Main landing page of the e-voting system.
 - **login.php**: User login page for authentication.
-- **register.php**: User registration page for creating new accounts.
+- **signup.php**: User registration page for creating new accounts.
 - **vote.php**: Page for casting votes during elections.
 - **admin**: Directory containing admin functionalities.
     - **admin_login.php**: Admin login page for accessing admin panel.
