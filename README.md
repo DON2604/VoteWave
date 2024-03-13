@@ -4,7 +4,7 @@
 
 
 
-🗳️ **E-Voting System**
+🗳️ *VoteWave*
 
 Welcome to our electronic voting (e-voting) system implemented using PHP, HTML, CSS, and MySQL. 🎉 This platform offers a secure and efficient way to conduct elections online.
 
