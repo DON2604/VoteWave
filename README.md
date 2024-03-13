@@ -10,18 +10,18 @@ Welcome to our electronic voting (e-voting) system implemented using PHP, HTML, 
 
 **Features**
 
-🔒 **User Authentication**: Users can register, login, and manage their accounts securely.
-👤 **Candidate Profiles**: Explore detailed information about the candidates running for election.
-✅ **Voting Process**: Cast your votes securely for your preferred candidates.
-📊 **Vote Counting**: Automatic tallying of votes to determine the election results.
-🛡️ **Admin Panel**: Administrators have access to manage candidates, users, and view election statistics.
+🔒 **User Authentication**: Users can register, login, and manage their accounts securely.<br>
+👤 **Candidate Profiles**: Explore detailed information about the candidates running for election.<br>
+✅ **Voting Process**: Cast your votes securely for your preferred candidates.<br>
+📊 **Vote Counting**: Automatic tallying of votes to determine the election results.<br>
+🛡️ **Admin Panel**: Administrators have access to manage candidates, users, and view election statistics.<br>
 
 **Technologies Used**
 
-🔗 **PHP**: Backend scripting language for server-side logic and database interactions.
-🌐 **HTML**: Markup language for creating the structure of web pages.
-🎨 **CSS**: Styling language for designing the appearance of web pages.
-💻 **XAMPP**: Local server solution for hosting the PHP application and MySQL database.
+🔗 **PHP**: Backend scripting language for server-side logic and database interactions.<br>
+🌐 **HTML**: Markup language for creating the structure of web pages.<br>
+🎨 **CSS**: Styling language for designing the appearance of web pages.<br>
+💻 **XAMPP**: Local server solution for hosting the PHP application and MySQL database.<br>
 
 **Setup Instructions**
 
