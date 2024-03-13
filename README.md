@@ -1,4 +1,11 @@
+<p align="center">
+<img src="https://github.com/DON2604/VoteWave/assets/89240074/7e4a966b-32ce-4650-acc9-740f65515aaa">
+</p>
+
+
+
 ## 🗳️ E-Voting System
+
 
 This is an electronic voting (e-voting) system implemented using PHP, HTML, and CSS. It provides a secure and efficient platform for conducting elections online.
 
