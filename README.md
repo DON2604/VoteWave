@@ -52,10 +52,4 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 This project is licensed under the [MIT License](LICENSE).
 
-### Contact
-
-For any inquiries or support, please contact the project maintainer at [your.email@example.com](mailto:your.email@example.com).
-
----
-
 *Copyright © 2024*
