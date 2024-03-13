@@ -49,6 +49,6 @@ Welcome to our electronic voting (e-voting) system implemented using PHP, HTML, 
 
 **License**
 
-This project is licensed under the MIT License. 📜
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
 
 Copyright © 2024
